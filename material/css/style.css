@@ -1,0 +1,247 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgb(253, 253, 253), rgb(255, 255, 255));
+}
+
+a:link, a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 800px;
+    background-image: url(/imagens/menu_breaking-bad.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#menu {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(31, 30, 30, 0.7); 
+    position: fixed;
+    z-index: 999;
+}
+
+#menu ul {
+    width: 50%;
+    height: inherit; 
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;  
+    justify-content: space-between; 
+}
+
+#menu ul li {
+    list-style: none;
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 80px; 
+    letter-spacing: 6px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-left: 10px;  
+    padding-right: 10px; 
+    transition: background-color 0.3s ease; 
+}
+
+#menu ul li:hover {
+    cursor: pointer;
+    background-color: #ff8308;
+    transition: background-color 0.5s ease;
+}
+
+.background {
+    background-image: url('/imagens/menu_breaking-bad.webp');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.sinopse {
+    background-color: #f7f7f7;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sinopse-texto {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sinopse-imagem {
+    width: 100%;
+    background-image: url('/imagens/breakingbad22.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+}
+
+.sinopse-imagem img {
+    max-width: 100%;
+    height: auto;
+}
+
+.success {
+    background-color: yellow;
+    text-align: center;
+    padding: 40px 0;
+    font-weight: bold;
+    font-size: 32px;
+    color: #000;
+}
+
+.sucesso-texto {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.sucesso-texto p {
+    width: 45%;
+    margin: 0;
+}
+
+.saiba-mais {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.text-left {
+    color: black;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+.text-left p {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.image-right {
+    width: 100%;
+    text-align: right;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+.image-right img {
+    max-width: auto;
+    height: 100%;
+}
+
+.episodios {
+    padding: 40px;
+    background-color: white;
+}
+
+.episodio {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.episodio img {
+    width: 45%;
+    height: auto;
+}
+
+.episodio p {
+    width: 45%;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.inverso {
+    flex-direction: row-reverse;
+}
+
+.inverso img {
+    margin-left: 20px;
+}
+
+.inverso p {
+    margin-left: 0;
+}
+
+.img-breaking-bad {
+    background-color: white;
+    padding: 0px;
+}
+
+.img-breaking-bad-imagem {
+    width: auto;
+    height: auto; 
+    background-image: url('/imagens/Logo_breaking_bad.webp');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+}
+
+.curiosidade {
+    font-size: 36px;
+    padding-left: 50px;
+}
+
+.curiosidade-imagem {
+    width: 100%;
+    height: 100vh; 
+    object-fit: cover;
+    margin: 0;
+}
+
+.curiosidade-texto {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.curiosidade-texto h2 {
+    font-size: 36px; 
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.curiosidade-texto p {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+footer img {
+    max-width: 200px;
+    height: auto;
+}
