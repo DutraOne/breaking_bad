@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 80px;
+    background-color: #444444af;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-right: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+nav ul li a:hover{
+    background-color: darkgoldenrod;
+    color: #000;
+}
+
+header{
+    background-image: url(../imagens/menu_breaking-bad.webp);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.secao-um{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+h2{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.text-content-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-content-flex p{
+    width: 1000px;
+}
+
+.secao-dois{
+    background-image: url(../imagens/breakingbad22.jpeg);
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.secao-dois .bg-color{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(238, 238, 59, 0.233);
+}
+
+.terceira-secao{
+    padding-bottom: 40px;
+    background-color: yellow;
+    padding-top: 10px;
+}
+
+.text-content-grid{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.text-content-grid p{
+    width: 500px;
+}
+
+.quarta-secao{
+    background-image: url(../imagens/cartoon-breaking-bad-walter-9tng3z9qby0hppi6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 650px;
+    color: white;
+    padding: 100px;
+}
+
+.quarta-secao p{
+    width: 50%;
+    margin-left: 100px;
+}
+
+.quinta-secao{
+    padding-bottom: 70px;
+}
+
+
+.quinta-secao img{
+    width: 350px;
+}
+
+.text-container-flexx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.text-container-flexx p{
+    width: 700px;
+}
+
+.sexta-secao{
+    background-image: url(../imagens/Logo_breaking_bad.webp);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.setima-secao{
+    padding-bottom: 30px;
+}
+
+.oitava-secao{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #000;
+
+}
+
+.oitava-secao img{
+    width: 150px;
+}
+
